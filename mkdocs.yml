@@ -1,4 +1,4 @@
-site_name: obsidian-mkdocs template
+site_name: ksi-dev
 
 theme:
     name: 'material'
@@ -28,7 +28,9 @@ markdown_extensions:
   # - attr_list
   - pymdownx.arithmatex:
       generic: true
-  # - pymdownx.superfences
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
   # - pymdownx.details
   # - pymdownx.magiclink
   - pymdownx.tasklist:
