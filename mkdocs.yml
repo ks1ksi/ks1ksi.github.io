@@ -5,9 +5,12 @@ repo_url: https://github.com/ks1ksi/ks1ksi.github.io
 site_description: Seungil Kim's blog about computer science and software.
 
 theme:
+    language: kr
+    logo: content/logo.png
+
     name: 'material'
     palette:
-
+    
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -53,6 +56,15 @@ plugins:
   - search
   - roamlinks 
   - mermaid2
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ks1ksi
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/%EC%8A%B9%EC%9D%BC-%EA%B9%80-2a241711a/
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<ksi990302@gmail.com>
 
 extra_javascript:
   - javascripts/mathjax.js
