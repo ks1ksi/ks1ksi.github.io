@@ -1,10 +1,10 @@
 const path = require("path");
 const pathPrefix = "/";
 const siteMetadata = {
-  title: "Seungil Kim's Blog",
-  shortName: "ks1ksi",
+  title: "Seungil Kim's Dev Blog",
+  shortName: "Blog",
   description:
-    "Seungil Kim's blog about software, computer science.",
+    "Blog about computer science, software.",
   twitterName: "ks1ksi",
   imageUrl: "/graph-visualisation.jpg",
   siteUrl: "https://ks1ksi.github.io/",
@@ -16,17 +16,6 @@ module.exports = {
     DEV_SSR: true,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-mdx`,
-      options: {
-        extensions: [".mdx", ".md"],
-        gatsbyRemarkPlugins: [
-          {
-            resolve: `gatsby-remark-highlight-code`,
-          },
-        ],
-      },
-    },
     {
       resolve: "gatsby-source-filesystem",
       options: {
@@ -41,7 +30,7 @@ module.exports = {
         nav: [
           {
             title: "Github",
-            url: "https://github.com/ks1ksi",
+            url: "https://github.com/theowenyoung/obsidian-template-gatsby-theme-primer-wiki/",
           },
           // {
           //   title: "Twitter",
