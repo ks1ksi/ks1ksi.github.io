@@ -1,0 +1,152 @@
+{
+  "main": {
+    "id": "9a2c4fa7279dc764",
+    "type": "split",
+    "children": [
+      {
+        "id": "9dd998b803a03296",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "1b42344d4a11671e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PS/비트마스크.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6cc9b5ca4c7f06f1",
+    "type": "split",
+    "children": [
+      {
+        "id": "2008e5f30685be61",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a0525f914824b309",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4a41deb858b89ef3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ef58c03345ba54b9",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3ab4f0e2d97f9e18",
+    "type": "split",
+    "children": [
+      {
+        "id": "5a21f799aba7df7b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f8571ae88da352c0",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "PS/비트마스크.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "20fa26de1e4fae11",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "PS/비트마스크.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "e5fd153a7e88b031",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3987fc9ab0d4c358",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "PS/비트마스크.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "1b42344d4a11671e",
+  "lastOpenFiles": [
+    "PS/BOJ/백준 2629번 양팔저울.md",
+    "PS/BOJ/백준 13489번 Vještica.md",
+    "PS/BOJ/백준 1062번 가르침.md",
+    "PS/비트마스크.md",
+    "PS/Programming Contest/2022 SKKU 프로그래밍 대회 in 소프트의 밤.md",
+    "PS/Programming Contest/2022 성균관대학교 프로그래밍 경진대회.md",
+    "PS/그래프 최단경로 알고리즘 정리.md",
+    "Home.md",
+    "content/homeimage.jpg",
+    "content/Pasted image 20221016004616.png"
+  ]
+}
