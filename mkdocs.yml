@@ -6,7 +6,6 @@ site_description: Seungil Kim's blog about computer science and software.
 
 theme:
     language: kr
-    logo: content/logo.png
 
     name: 'material'
     palette:
