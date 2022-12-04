@@ -1,4 +1,8 @@
 site_name: ksi-dev
+site_url: https://ks1ksi.github.io/
+repo_url: https://github.com/ks1ksi/ks1ksi.github.io
+
+site_description: Seungil Kim's blog about computer science and software.
 
 theme:
     name: 'material'
