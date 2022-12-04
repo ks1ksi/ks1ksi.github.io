@@ -51,15 +51,15 @@ module.exports = {
         nav: [
           {
             title: "Github",
-            url: "https://github.com/theowenyoung/obsidian-template-gatsby-theme-primer-wiki/",
+            url: "https://github.com/ks1ksi",
           },
-          {
-            title: "Twitter",
-            url: "https://twitter.com/theowenyoung",
-          },
+          // {
+          //   title: "Twitter",
+          //   url: "https://twitter.com/theowenyoung",
+          // },
         ],
         editUrl:
-          "https://github.com/theowenyoung/obsidian-template-gatsby-theme-primer-wiki/tree/main/",
+          "https://github.com/ks1ksi/ks1ksi.github.io/tree/main",
       },
     },
     {
