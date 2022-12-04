@@ -1,13 +1,13 @@
 const path = require("path");
 const pathPrefix = "/";
 const siteMetadata = {
-  title: "Obsidian Template for Gatsby Theme Primer Wiki",
-  shortName: "Wiki",
+  title: "Seungil Kim's Blog",
+  shortName: "ks1ksi",
   description:
-    "Another Obsidian template that use gatsby-theme-primer-wiki, Welcome to your new Obsidian Knowledge Base!",
-  twitterName: "theowenyoung",
+    "Seungil Kim's blog about software, computer science.",
+  twitterName: "ks1ksi",
   imageUrl: "/graph-visualisation.jpg",
-  siteUrl: "https://demo-obsidian.owenyoung.com",
+  siteUrl: "https://ks1ksi.github.io/",
 };
 module.exports = {
   siteMetadata,
