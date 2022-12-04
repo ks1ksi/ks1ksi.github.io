@@ -4,10 +4,13 @@ repo_url: https://github.com/ks1ksi/ks1ksi.github.io
 
 site_description: Seungil Kim's blog about computer science and software.
 
+edit_uri: edit/main/docs/
+
 theme:
     language: kr
 
     name: 'material'
+    custom_dir: overrides
     palette:
     
     # Light mode
