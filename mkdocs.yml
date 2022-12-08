@@ -11,6 +11,10 @@ theme:
     logo: content/7.png
     name: 'material'
     custom_dir: overrides
+
+    features:
+      - navigation.expand
+
     palette:
     
     # Light mode
