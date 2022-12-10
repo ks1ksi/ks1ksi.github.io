@@ -26,3 +26,15 @@
 ## cascade
 - 원래 하나하나 다 영속성 컨텍스트에 추가해줘야 함.
 - 상위 엔티티에서 하위 엔티티로 영속 상태 전파.
+- ex) User를 지웠을 때, User가 쓴 글도 모두 지우고 싶다면 ?
+
+## @Transactional
+- 메소드가 시작할 때 트랜잭션 `begin()`, 메서드가 종료될 때 트랜잭션 `commit()`.
+- 중간에 예외 발생시 트랜잭션 `rollback()`.
+- `readOnly=true` : 데이터의 변경이 없는 읽기 전용 메서드에 사용, 영속성 컨텍스트를 플러시 하지 않으므로 약간의 성능 향상(읽기 전용에는 다 적용)
+- By default, CRUD methods on repository instances inherited from [`SimpleJpaRepository`](https://docs.spring.io/spring-data/data-jpa/docs/current/api/org/springframework/data/jpa/repository/support/SimpleJpaRepository.html) are transactional. For read operations, the transaction configuration `readOnly` flag is set to `true`. All others are configured with a plain `@Transactional` so that default transaction configuration applies.
+- 중첩되면 기본적으로 하나의 트랜잭션으로 처리.
+- `@Service` 계층에서 `@Transactional`을 달아서 여러 Repository를 사용하는 코드가 하나의 트랜잭션으로 처리가 되도록 할 수 있다.
+
+## 연관관계 편의 메서드
+- DB에 `flush`되기 전에도 양방향으로 묶여 있는 자료의 일관성을 지키기 위해 작성.
