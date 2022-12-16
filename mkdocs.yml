@@ -8,7 +8,8 @@ edit_uri: edit/main/docs/
 
 theme:
     language: kr
-    logo: content/7.png
+    logo: content/8.svg
+    favicon: content/8.svg
     name: 'material'
     custom_dir: overrides
 
