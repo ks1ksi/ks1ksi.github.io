@@ -1,9 +1,13 @@
 [문제 링크](https://www.acmicpc.net/problem/13489)
 
 노드 개수를 최소화시키기 위해 각 단어간 prefix를 최대한 겹치게 만들면 된다. 순서는 상관 없으므로 알파벳의 개수를 세서, 겹치는 만큼 prefix로 만들자. 
+
 단어가 최대 16개이므로, 단어 사용 여부를 bit로 표현할 수 있다.
 $dp[mask]$는 $mask$에 해당하는 단어들로 만들 수 있는 Trie의 최소 노드의 수 라고 정의하면, 다음과 같은 점화식을 세울 수 있다. 
+
 $dp[mask] = min(dp[mask], dp[sub] + dp[mask \oplus sub] - cnt)$
+
+
 $sub$는 현재 선택한 단어들의 부분집합이고, $cnt$는 현재 선택한 단어들의 최대 prefix 길이다.
 
 ```cpp
