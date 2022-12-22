@@ -64,7 +64,7 @@ plugins:
   - roamlinks 
   - mermaid2
   - git-revision-date-localized:
-      fallback_to_build_date: true
+      type: iso_datetime
 
 extra:
   social:
