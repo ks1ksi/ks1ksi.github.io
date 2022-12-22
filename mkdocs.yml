@@ -64,6 +64,8 @@ plugins:
   - roamlinks 
   - mermaid2
   - git-revision-date-localized:
+      timezone: Asia/Seoul
+      type: iso_datetime
       enable_creation_date: true
 
 extra:
