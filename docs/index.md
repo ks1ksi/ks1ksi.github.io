@@ -1,4 +1,4 @@
-# Home
+# index
 ![[homeimage.jpg]]
 
 ---
@@ -9,4 +9,3 @@ I'm interested in 👨‍💻
 
 > - Backend Develop (Java, Spring)
 > - Problem Solving
-
