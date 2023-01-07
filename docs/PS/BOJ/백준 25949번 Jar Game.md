@@ -1,3 +1,4 @@
+# 백준 25949번 Jar Game
 [문제 링크](https://www.acmicpc.net/problem/25949)
 
 **$a, b, c$번 항아리에 남아있는 조약돌의 개수와 현재 턴**으로 상태공간 정의.

@@ -1,3 +1,4 @@
+# SELECT
 
 ```SQL
 SELECT(DISTINCT) 컬럼명(ALIAS)

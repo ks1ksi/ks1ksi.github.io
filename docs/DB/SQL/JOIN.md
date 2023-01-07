@@ -1,3 +1,4 @@
+# JOIN
 
 ## Cross Join
 ```sql
