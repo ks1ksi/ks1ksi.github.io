@@ -395,7 +395,7 @@
 <h1 id="2261">백준  2261번 가장 가까운 두 점<a class="headerlink" href="#2261" title="Permanent link">¶</a></h1>
 <p><a href="https://www.acmicpc.net/problem/2261">문제 링크</a></p>
 <p><span class="arithmatex">\(x\)</span>좌표 기준으로 정렬 후 앞에서부터 스위핑.
-지금까지 찾은 최단 거리를 <span class="arithmatex">\(d\)</span>, 이번에 거리를 잴 점을 <span class="arithmatex">\(p\)</span>라 할 때, <span class="arithmatex">\(x\)</span>좌표, <span class="arithmatex">\(y\)</span>좌표가 <span class="arithmatex">\(p\)</span>와 <span class="arithmatex">\(d\)</span>이상 차이나는 점은 확인할 필요가 없다.
+지금까지 찾은 최단 거리를 <span class="arithmatex">\(d\)</span>, 이번에 거리를 잴 점을 <span class="arithmatex">\(p\)</span>라 할 때, <span class="arithmatex">\(x\)</span>좌표, <span class="arithmatex">\(y\)</span>좌표가 <span class="arithmatex">\(p\)</span>와 <span class="arithmatex">\(d\)</span>이상 차이나는 점은 확인할 필요가 없다.
 <code>set</code>에 <span class="arithmatex">\(y\)</span>좌표 기준으로 점을 넣어 두면서, <span class="arithmatex">\(x\)</span>좌표가 <span class="arithmatex">\(dist\)</span>보다 멀리 있는 점은 삭제한다. <span class="arithmatex">\(p_y - d \le q_y \le p_y + d\)</span> 인 점 <span class="arithmatex">\(q\)</span>의 범위를 <code>lower_bound()</code>로 찾아서 최단 거리를 계산한다.</p>
 <div class="highlight"><pre><span></span><code><a href="#__codelineno-0-1" id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="cp">#include</span><span class="w"> </span><span class="cpf">&lt;bits/stdc++.h&gt;</span>
 <a href="#__codelineno-0-2" id="__codelineno-0-2" name="__codelineno-0-2"></a>
@@ -459,7 +459,7 @@
 <small>
     
       마지막 업데이트:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2023-01-10 21:37:23</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2023-01-10 21:40:05</span>
 <br/>
         작성일:
         <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_datetime">2023-01-10 21:37:23</span>
